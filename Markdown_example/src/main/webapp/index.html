@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="plugins/editor.md/css/editormd.min.css" />
+<script type="text/javascript" src="plugins/require.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript">
+    $(function() {
+        var editor = editormd({
+            id : "editormd",
+            path : "../plugins/editor.md/lib/"
+        });
+
+    });
+</script>
+</head>
+<body>
+    <span>body </span>
+    <div id="editormd">
+        <textarea style="display: none;">### Hello Editor.md !</textarea>
+    </div>
+</body>
+</html>
